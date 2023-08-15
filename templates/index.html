@@ -33,15 +33,15 @@
       <div class="position-absolute w-100 h-50 bg-dark bottom-0 start-0"></div>
       <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
         <div class="col-12 col-lg-6">
-          <img src="img/webp/abstract18.webp" width="2280" height="1732" alt="abstract image"
+          <img src="{{ url_for('static', filename='img/webp/abstract18.webp') }}" width="2280" height="1732" alt="abstract image"
             class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up">
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-          <img src="img/webp/abstract6.webp" width="1116" height="1578" alt="abstract image"
+          <img src="{{ url_for('static', filename='img/webp/abstract6.webp') }}" width="1116" height="1578" alt="abstract image"
             class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000">
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-          <img src="img/webp/abstract9.webp" width="1116" height="848" alt="abstract image"
+          <img src="{{ url_for('static', filename='img/webp/abstract9.webp') }}" width="1116" height="848" alt="abstract image"
             class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="3000">
         </div>
       </div>
@@ -88,7 +88,7 @@
         <div class="col-12 col-md-6">
           <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
             <div class="bg-dark shadow rounded-5 p-0">
-              <img src="img/webp/abstract3.webp" width="582" height="327" alt="abstract image"
+              <img src="{{ url_for('static', filename='img/webp/abstract3.webp') }}" width="582" height="327" alt="abstract image"
                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
               <div class="p-5">
                 <h2 class="fw-lighter">Ipsum dolor est</h2>
@@ -101,7 +101,7 @@
 
           <div class="card bg-transparent" data-aos="zoom-in-up">
             <div class="bg-dark shadow rounded-5 p-0">
-              <img src="img/webp/abstract2.webp" width="582" height="442" alt="abstract image"
+              <img src="{{ url_for('static', filename='img/webp/abstract2.webp') }}" width="582" height="442" alt="abstract image"
                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
               <div class="p-5">
                 <h2 class="fw-lighter">Ipsum dolor est</h2>
@@ -119,7 +119,7 @@
           </div>
           <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">
             <div class="bg-dark shadow rounded-5 p-0">
-              <img src="img/webp/abstract17.webp" width="582" height="390" alt="abstract image"
+              <img src="{{ url_for('static', filename='img/webp/abstract17.webp') }}" width="582" height="390" alt="abstract image"
                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
               <div class="p-5">
                 <h2 class="fw-lighter">Ipsum dolor est</h2>
@@ -132,7 +132,7 @@
 
           <div class="card bg-transparent" data-aos="zoom-in-up">
             <div class="bg-dark shadow rounded-5 p-0">
-              <img src="img/webp/abstract4.webp" width="582" height="327" alt="abstract image"
+              <img src="{{ url_for('static', filename='img/webp/abstract4.webp') }}" width="582" height="327" alt="abstract image"
                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
               <div class="p-5">
                 <h2 class="fw-lighter">Ipsum dolor est</h2>
@@ -153,9 +153,9 @@
       <div class="row d-flex align-items-center">
 
         <div class="col-12 col-lg-7">
-          <img class="img-fluid rounded-5 mb-n5 shadow" src="img/webp/person9.webp" width="512" height="512"
+          <img class="img-fluid rounded-5 mb-n5 shadow" src="{{ url_for('static', filename='img/webp/person9.webp') }}" width="512" height="512"
             alt="a nice person" loading="lazy" data-aos="zoom-in-right">
-          <img class="img-fluid rounded-5 ms-5 mb-n5 shadow" src="img/webp/person11.webp" width="512" height="512"
+          <img class="img-fluid rounded-5 ms-5 mb-n5 shadow" src="{{ url_for('static', filename='img/webp/person11.webp') }}" width="512" height="512"
             alt="another nice person" loading="lazy" data-aos="zoom-in-up">
         </div>
         <div class="col-12 col-lg-5 bg-dark rounded-5 py-5" data-aos="fade">
@@ -196,14 +196,14 @@
   <div class="container-fluid px-vw-5 position-relative" data-aos="fade">
     <div class="position-absolute w-100 h-50 bg-black top-0 start-0"></div>
     <div class="position-relative py-vh-5 bg-cover bg-center rounded-5"
-      style="background-image: url(img/webp/abstract12.webp)">
+      style="background-image: url({{ url_for('static', filename='img/webp/abstract12.webp') }})">
       <div class="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
         <div class="row d-flex align-items-center">
 
           <div class="col-6 d-flex align-items-center bg-dark shadow rounded-5 p-0" data-aos="zoom-in-up">
             <div class="row d-flex justify-content-center">
               <div class="col-12">
-                <img src="img/webp/person103.webp" width="684" height="457" alt="our CEO with some nice numbers"
+                <img src="{{ url_for('static', filename='img/webp/person103.webp') }}" width="684" height="457" alt="our CEO with some nice numbers"
                   class="img-fluid rounded-5" loading="lazy">
               </div>
               <div class="col-12 col-lg-10 col-xl-8 text-center my-5">
@@ -282,7 +282,7 @@
             <p class="text-secondary lead">"Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore et
               dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
             <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-              <img src="img/webp/person14.webp" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
+              <img src="{{ url_for('static', filename='img/webp/person14.webp') }}" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
                 data-aos="fade" loading="lazy">
               <div>
                 <span class="h6 fw-5">Jane Doemunsky</span><br>
@@ -331,7 +331,7 @@
               dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat."</p>
             <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-              <img src="img/webp/person13.webp" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
+              <img src="{{ url_for('static', filename='img/webp/person13.webp') }}" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
                 data-aos="fade" loading="lazy">
               <div>
                 <span class="h6 fw-5">Jane Doemunsky</span><br>
@@ -388,7 +388,7 @@
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat."</p>
             <div class="d-flex justify-content-start align-items-center border-top pt-3">
-              <img src="img/webp/person16.webp" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
+              <img src="{{ url_for('static', filename='img/webp/person16.webp') }}" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
                 data-aos="fade" loading="lazy">
               <div>
                 <span class="h6 fw-5">Jane Doemunsky</span><br>
